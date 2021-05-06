@@ -1,0 +1,3 @@
+# Landing Page - EZLabor
+
+## Integrantes:
