@@ -241,3 +241,23 @@ ul, a {
     font-size: 20pt;
     text-align: center;
 }
+
+/* ----------------------------------------------------------------- */
+/* Creators Styles */
+/* ----------------------------------------------------------------- */
+
+footer {
+    background-color: #383958 !important;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    padding-left: 0px;
+    text-align: center;
+    line-height: 1.5;
+}
