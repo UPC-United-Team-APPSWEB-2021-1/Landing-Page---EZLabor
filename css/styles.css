@@ -168,3 +168,45 @@ ul, a {
     visibility: visible;
 }
 
+/* ----------------------------------------------------------------- */
+/* usuarios Styles */
+/* ----------------------------------------------------------------- */
+.card-glide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.card-glide img{
+    width: 300px;
+    border-radius: 20px;
+}
+.card-glide h3, .card-glide ul {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 300px;
+    visibility: hidden;
+}
+.card-glide ul {
+    padding: 0px;
+    line-height: 1.5;
+    bottom: 15px;
+}
+.card-glide h3 {
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+/*animation*/
+.card-glide:hover > img {
+    transition: 1s;
+    filter: brightness(40%);
+}
+.card-glide:hover h3 {
+    transform: translateY(-50px);
+    visibility: visible;
+}
+.card-glide:hover ul {
+    visibility: visible;
+}
