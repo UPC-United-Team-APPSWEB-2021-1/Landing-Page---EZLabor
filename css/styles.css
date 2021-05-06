@@ -143,7 +143,28 @@ ul, a {
     user-select: none;
     visibility: hidden;
 }
+/*animation card-events*/
+.card:hover > img {
+    transition: 0.5s;
+    filter: brightness(40%);
+}
+.card:hover > p {
+    transition: 0.5s;
+    visibility: visible;
+}
 
-
-
+/* ----------------------------------------------------------------- */
+/* Latest-updates Styles */
+/* ----------------------------------------------------------------- */
+.card h3 {
+    position: absolute;
+    color: white;
+    visibility: hidden;
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+}
+.card:hover > h3 {
+    visibility: visible;
+}
 
