@@ -79,3 +79,22 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* ----------------------------------------------------------------- */
+/* organizers Styles */
+/* ----------------------------------------------------------------- */
+
+#organizers.container {
+    height: 100%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+#organizers.container .info-container .info-text h2 {
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+#organizers.container .info-container .info-text button {
+    margin: auto;
+}

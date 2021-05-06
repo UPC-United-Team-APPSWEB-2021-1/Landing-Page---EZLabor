@@ -210,3 +210,34 @@ ul, a {
 .card-glide:hover ul {
     visibility: visible;
 }
+
+/* ----------------------------------------------------------------- */
+/* Creators Styles */
+/* ----------------------------------------------------------------- */
+
+.panel {
+    background-color: #b8b8d2;
+    border-radius: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-normal {
+    background-size: cover;
+    width: 260px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-normal img {
+    width: 200px;
+    height: 200px;
+}
+.card-normal h3 {
+    font-size: 20pt;
+    text-align: center;
+}
